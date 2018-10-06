@@ -1,4 +1,5 @@
 def factorial(base_case):
+    ''' Factorial alogirthm using recursion'''
     try:
         if int(base_case) <= 1:
             return base_case
